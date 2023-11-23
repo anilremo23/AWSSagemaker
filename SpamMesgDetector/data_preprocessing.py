@@ -101,8 +101,8 @@ if __name__=='__main__':
     train_full.to_csv(train_features_output_path,header=False,index=False)
     
     print(f"saving training features with headers to {train_features_output_path}")
-    train_full.to_csv(train_features_output_path,index=False)
+    train_full.to_csv(train_features_headers_output_path,index=False)
     
     print(f"saving test features to {train_features_output_path}")
-    test_full.to_csv(train_features_output_path,header=False,index=False)
+    test_full.to_csv(test_features_output_path,header=False,index=False)
     print("Preprocessing Completed") 
